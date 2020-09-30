@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="padding">35dp</dimen>
     <dimen name="titulo">32dp</dimen>
     <dimen name="datos">18dp</dimen>
+    <dimen name="hint">17dp</dimen>
     <dimen name="separacion">20dp</dimen>
 </resources>

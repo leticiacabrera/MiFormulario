@@ -11,25 +11,25 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="35dp"
+        android:padding="@dimen/padding"
         app:divider="@drawable/abc_vector_test"
-        app:showDividers="middle"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="-208dp">
+        app:showDividers="middle">
 
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/etNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/nombre_hint"
-            android:inputType="text">
+            android:inputType="text"
+            android:textSize="@dimen/hint">
         </androidx.appcompat.widget.AppCompatEditText>
 
         <EditText
             android:id="@+id/etFecha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/fecha_hint">
+            android:hint="@string/fecha_hint"
+            android:textSize="@dimen/hint">
         </EditText>
 
         <EditText
