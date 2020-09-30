@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MiFormulario</string>
+    <string name="nombre_hint">Nombre completo</string>
+    <string name="fecha_hint">Toca para ingresar fecha de nacimiento</string>
+    <string name="telefono_hint">Teléfono</string>
+    <string name="email_hint">Email</string>
+    <string name="descripcion_hint">Descripción de contacto</string>
+    <string name="button_siguiente">Siguiente</string>
+    <string name="button_fecha">Elegir</string>
+    <string name="titulo_confirmar_dt">Confirmar datos</string>
+    <string name="button_editar">Editar datos</string>
+    <string name="fecha">Fecha de nacimiento:</string>
+    <string name="telefono">Teléfono:</string>
+    <string name="email">Email:</string>
+    <string name="descripcion">Descripción:</string>
+</resources>
